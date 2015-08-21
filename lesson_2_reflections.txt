@@ -4,3 +4,21 @@ it creates a .git directory..  git uses it to store history and commits.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 it stores only the files you wish to commit from the working directory, then when committed, the entire set of files in the 
 staging directory are added to the repository under the commit...
+
+How can you use the staging area to make sure you have one commit per logical change?
+by comparing to commit1
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when you want to save a version but make further changes, or begin working on other piece of functionality.  Branches
+help keep the work you are doing separate from the master line of code.
+
+How do the diagrams help you visualize the branch structure?
+They help provide a structure of logic on how the commits flow, and shows the commit logical flow in each branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+merging two branches together create a new head.  it helps visualize the two branches being merged to become one
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+the git automatic merge process flags the user when updates have been made to the same code and makes sure the
+user addresses the updates.
